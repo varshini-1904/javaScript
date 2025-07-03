@@ -13,4 +13,8 @@ for (let i = 0; i < products.length; i++) {
 listHTML += "</ul>"
 document.getElementById("product").innerHTML = listHTML
 
+function hello(){
+  listHTML += `"hello welcome"`
 
+}
+hello()
